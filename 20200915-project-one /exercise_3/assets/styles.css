@@ -1,0 +1,128 @@
+/* Our main stylesheet for Project One */
+/* cmd+/ = CSS note or commenting out */
+body {
+  font-family: acumin-pro, VT323;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+}
+.left-column, .middle-column, .right-column{
+  width: 333px;
+}
+.right-column img{
+  width: 200px;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 1024px;
+  height: 768px;
+}
+
+/* TYPOGRAPHY */
+p {
+  /* an em is defined by the parent element that has defined the main value. In this case all elements are inheriting the 18px value from the body tag */
+  font-size: 1em;
+  /* 1em = 18px */
+}
+
+h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 33.333em;
+  /* 600px / 18px = 33.333333em */
+  padding: 0;
+  margin-top: -100px;
+  margin-bottom: -50px;
+}
+
+h2,
+h3 {
+  color: #88D6A9;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+
+  font-size: 2em;
+  /* 36px / 18px = 2em */
+  font-weight: 400;
+}
+h3{
+  color: #88D6A9;
+}
+h1 {
+  color: #88D6A9;
+}
+p {
+  color: #88D6A9;
+}
+
+h1  {position: absolute;
+top:1px}
+h2 {position: absolute;
+top:100px}
+p {position: absolute;
+top:400px}
+
+
+h3 {
+  /* 24/18 = 1.3333em */
+  font-size: 1.3333em;
+}
+
+.character-highlights {
+  text-transform: uppercase;
+  font-size: 3.3333em;
+  /* 60/18 = 3.3333em */
+}
+
+a {
+  color: #7EA9DD;
+  text-decoration: underline;
+}
+
+.letter-container {
+  display: flex;
+  justify-content: space-evenly;
+  /*horizontal alignments*/
+  align-items: center;
+  /*verticl alignments*/
+}
+
+.flexybox {
+  display: flex;
+}
+
+
+.history-writeup {
+  margin-top: 50px;
+}
+
+.history-writeup p {
+  font-size:20px;
+}
+
+footer {
+  margin-top: 150px;
+}
+
+#my-photo {
+  width: 200px;
+  height: 200px;
+  margin-right:60px;
+}
+
+.personal-title {
+  /* 29% x 1024px = 300px */
+  width: 300px;
+  margin-right:60px;
+}
+
+.sources {
+  /* 35% of #container width = 358.2px */
+  width: 358px;
+}
